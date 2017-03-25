@@ -6,13 +6,16 @@ body{
     width: 200px;
     height:200px;
     background:#0099FF;
-    position: absolute;
-    top:0px;
 }
 
 .c2{
     width: 200px;
-    height:300px;
+    height:400px;
     background:#eee;
-    top:0px;
+}
+
+.c3{
+    width: 200px;
+    height: 300px;
+    float: left;
 }

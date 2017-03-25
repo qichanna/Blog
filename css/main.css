@@ -1,0 +1,77 @@
+nav{
+    background: #ccc;
+    height: 50px;
+}
+
+#banner{
+    background: #777;
+    height: 700px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    float: right;
+}
+
+nav ul li,nav .logo{
+    display: inline;
+    line-height: 50px;
+    margin-right: 20px;
+}
+
+
+
+nav ul li a{
+    /*line-height: 50px;*/
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+    color: #fff;
+}
+
+#banner .inner{
+    max-width: 300px;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 160px;
+}
+
+
+#banner .inner h1{
+    margin: 0;
+}
+
+button{
+    border: none;
+    background: #333;
+    color: #eee;
+    padding: 10px;
+}
+
+#banner button{
+    padding: 14px 40px;
+}
+
+#banner .inner .more{
+    margin-top: 280px;
+}
+
+.sub-head{
+    line-height: 30px;
+    margin: 30px;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 700px;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.logo a{
+    color: #fff;
+    text-decoration: none;
+}
