@@ -296,4 +296,44 @@ ul.share-group{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    overflow: hidden;
+}
+
+.mask{
+    position: fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    lef:0;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+}
+
+#sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width:300px;
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+#sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar ul a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    width: 100%;
+    display: inline-block;
+}
+
+#sidebar ul a:hover{
+    background: #444;
 }
