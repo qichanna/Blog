@@ -12,6 +12,10 @@ header{
     height: 700px;
 }
 
+.article #banner{
+    height: 300px;
+}
+
 nav ul{
     list-style: none;
     margin: 0;
@@ -41,6 +45,12 @@ nav ul li a{
     margin: 0 auto;
     position: relative;
     top: 160px;
+}
+
+.article #banner .inner
+{
+    top:30px;
+
 }
 
 #banner .inner h1{
@@ -88,6 +98,11 @@ h1{
     padding: 12px;
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
+}
+
+.article h1
+{
+    border:none;
 }
 
 h2{
@@ -315,11 +330,19 @@ ul.share-group{
     top: 0;
     bottom: 0;
     right: -300px;
+
+    /*css3方法*/
+    /*right:0;
+    -webkit-transform: translate(300px, 0);
+    -moz-transform: translate(300px, 0);
+    -ms-transform: translate(300px, 0);
+    -o-transform: translate(300px, 0);
+    transform: translate(300px, 0);*/
     width:300px;
     background: #333;
     color: #fff;
     padding: 20px 0;
-    transition: right 0.5s;
+    transition: all 0.5s;
 }
 
 #sidebar ul{
@@ -345,4 +368,29 @@ ul.share-group{
     bottom: 30px;
     right: 30px;
     border:1px solid #888;
+}
+
+.article .content
+{
+    background: #fefefe;
+}
+
+article
+{
+    line-height: 2;
+    padding: 10px 0;
+}
+
+.content_wrapper
+{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.article_info
+{
+    font-size: 14px;
+    color:#888;
+    padding: 15px 0;
+
 }
