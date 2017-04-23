@@ -300,6 +300,7 @@ ul.share-group{
 }
 
 .mask{
+    display: none;
     position: fixed;
     top:0;
     bottom:0;
@@ -313,11 +314,12 @@ ul.share-group{
     position: fixed;
     top: 0;
     bottom: 0;
-    right: 0;
+    right: -300px;
     width:300px;
     background: #333;
     color: #fff;
     padding: 20px 0;
+    transition: right 0.5s;
 }
 
 #sidebar ul{
