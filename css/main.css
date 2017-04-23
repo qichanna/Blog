@@ -394,3 +394,8 @@ article
     padding: 15px 0;
 
 }
+
+.active{
+
+    border-bottom: 2px solid #fafafa;
+}
